@@ -1,0 +1,78 @@
+body {
+    background-color: #F9F6F1;
+    padding:0 60px 0 60px;
+    font-family: 'Pathway Extreme', sans-serif;
+    margin: 0;
+    color: #76736E;
+}
+
+.hero-block-container {
+    display: block;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-logo {
+    margin-top: 40px;
+}
+
+#hero-image {
+    margin: -100px -60px -60px -60px;
+    width: 45%;
+}
+
+.hero-block-container {
+    width: 45%;
+}
+
+h1 {
+    font-size: 80px;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+}
+
+.checked {
+    list-style-type: none;
+    padding: 0;
+}
+
+.checked li {
+    display: flex;
+    align-items: center;
+}
+  
+  .checked .checkmark {
+    margin-right: 15px;
+}
+
+.list-checked {
+    margin-top: 10px;
+}
+
+.hero-cta {
+    display: inline-block;
+    background-color: black;
+    color: #F9F6F1;
+    padding: 25px 25px 25px 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-cta:hover {
+    color: black;
+    background-color: #F03434;
+}
+
+.hero-logos {
+    padding-right: 10px;
+}

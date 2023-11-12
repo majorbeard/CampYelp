@@ -1,0 +1,207 @@
+body {
+    font-family: 'Pathway Extreme', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.left-section {
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left-container {
+    padding: 40px 120px 0 120px;
+}
+
+.navbar {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-bottom: auto;
+}
+
+.prev-page-link {
+    margin-left: auto;
+}
+
+.back-link {
+    text-decoration: none;
+    color: 565657;
+}
+
+.back-link:hover {
+    color: #F03434;
+}
+
+.arrow {
+    border: solid #565657;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right: 5px;
+  }
+
+h1 {
+    font-size: 48px;
+}
+
+.user {
+    display: inline-block;
+}
+
+.sign-in {
+    margin-left: 10px;
+    color: #3299ce;
+    font-weight: bold;
+}
+
+.sign-in:hover {
+    color: #F03434;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 175px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+form {
+    width: 100%;
+    margin-top: 35px;
+}
+
+form label,
+form input,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.username {
+    margin: 0 0 10px 0;
+}
+
+.username-input {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Pathway Extreme', sans-serif;
+    color: black;
+    width: 97%;
+}
+
+.username-input:focus {
+    color: black;
+}
+
+.password {
+    margin: 20px 0 10px 0;
+}
+
+.password-input {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Pathway Extreme', sans-serif;
+    color: black;
+    width: 97%;
+}
+
+.password-input:focus {
+    color: black;
+}
+
+input::placeholder{
+    color: #b6b6b7;
+  }
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 18px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 20px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #F03434;
+    color: black;
+}
+
+.button:active {
+    color:#F03434;
+    background-color: white;
+    border: 2px solid #F03434;
+}
+
+.right-section {
+    height: 100vh;
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f7f4;
+}
+
+.quote-section {
+    padding: 0 200px 0 200px;
+}
+
+.quote {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.title-container {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.profile-picture {
+    display: inline-block;
+}
+
+.name,
+.title {
+    display: block;
+    margin: 0;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.title {
+    color: #565657;
+}
