@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;0,8..144,800;0,8..144,900;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,600;1,8..144,700;1,8..144,800;1,8..144,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="addcampstyles.css">
+    <title>Add your own campground</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+        <div class="navbar-left">
+            <img class="navbar-logo" src="Assets/Logo.svg" alt="YelpCamps Logo">
+            <a class="navbar-home" href="index.html">Home</a>
+        </div>
+        <div class="navbar-right">
+            <a class="login" href="#">johndoe_91</a>
+            <a class="logout" href="login.html">Logout</a>
+        </div>
+        </nav>
+    </header>
+    <section class="content">
+       
+        <form class="add_form" action="search_loggedin.html" method="get">
+
+            <h1>Add New Campground</h1>
+
+            <label for="campname" class="label">Campground Name</label>
+            <input id="campname" class="input" type="text" name="name" placeholder="Seven Sisters Waterfall" required>
+
+            <label for="price" class="label">Price</label>
+            <input id="price" class="input" type="text" name="price" placeholder="R750.00" required>
+
+            <label for="description" class="label">Description</label>
+            <textarea id="description" class="textarea" type="text" name="description" rows="7" placeholder="The Sevens Sisters is the 39th tallest waterfall in Norway. The 410 meter tall waterfall consists of seven separate streams, and the tallest of the seven has a free fall that measures 250 meters. The waterfall is located along the Geirangerfjorder in Stranda Municipality in More og Romsdal county, Norway" required></textarea>
+
+            <button class="button">Add Campground</button>
+
+        </form>
+
+    </section>
+    <footer>
+        <img class="navbar-logo footer-logo" src="Assets/Logo.svg" alt="YelpCamps Logo">
+    </footer>
+</body>
+</html>

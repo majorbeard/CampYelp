@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;0,8..144,800;0,8..144,900;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,600;1,8..144,700;1,8..144,800;1,8..144,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="addcampstyles.css">
+    <title>Add your own review</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+        <div class="navbar-left">
+            <img class="navbar-logo" src="Assets/Logo.svg" alt="YelpCamps Logo">
+            <a class="navbar-home" href="index.html">Home</a>
+        </div>
+        <div class="navbar-right">
+            <a class="login" href="#">johndoe_91</a>
+            <a class="logout" href="login.html">Logout</a>
+        </div>
+        </nav>
+    </header>
+    <section class="content">
+       
+        <form class="add_form" action="campview_loggedin.html" method="get">
+
+            <h1>Add New Review</h1>
+
+            <label for="description" class="label">Description</label>
+            <textarea id="description" class="textarea" type="text" name="description" rows="10" placeholder="This was probably the best camp I've ever visited this past year, definitely reccomend visiting any time soon" required></textarea>
+
+            <button class="button">Post Review</button>
+
+        </form>
+
+    </section>
+    <footer>
+        <img class="navbar-logo footer-logo" src="Assets/Logo.svg" alt="YelpCamps Logo">
+    </footer>
+</body>
+</html>

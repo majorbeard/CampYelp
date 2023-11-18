@@ -1,0 +1,235 @@
+body {
+    padding:0 60px 0 60px;
+    font-family: 'Pathway Extreme', sans-serif;
+    margin: 0;
+    color: #76736E;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+
+a {
+    text-decoration: none;
+    color: #76736E;
+}
+
+.navbar-logo {
+    margin-right: 20px;
+}
+
+.navbar-home {
+    font-weight: bold;
+}
+
+.navbar-home:hover {
+    color: #F03434;
+}
+
+.navbar-home:active {
+    font-size: large;
+}
+
+.logout {
+    color: #636364;
+    padding-left: 15px;
+}
+
+.logout:hover {
+    color: #F03434;
+}
+
+.logout:active {
+    font-weight: bold;
+}
+
+.login {
+    font-weight: bold;
+}
+
+.login:hover {
+    color: #F03434;
+}
+
+.login:active {
+    font-size: large;
+}
+
+.account {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 15px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.account:hover {
+    color: black;
+    background-color: #F03434;
+}
+
+.account:active {
+    background-color: white;
+    border: 2px solid #F03434;
+}
+
+.login:hover {
+    color: #F03434;
+}
+
+.login:active {
+    color: #F03434;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 100px;
+    margin-top: 50px;
+}
+
+.content-left {
+    display: flex;
+    align-items: flex-start;
+}
+
+.image-container {
+    padding: 40px;
+    border: 1px solid #cacaca;
+    border-radius: 8px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.content-right {
+    display: block;
+    max-width: 40%;
+}
+
+.desciption-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.camp-description {
+    padding: 40px;
+    border: 1px solid #cacaca;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.camp-image {
+    width: 100%;
+    height: auto;
+    
+}
+
+.camp-description img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.price {
+    color:black;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.submitted-by {
+    font-style: italic;
+}
+
+.review-container {
+    padding: 40px;
+    border: 1px solid #cacaca;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.review-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 16px;
+    color: black;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.time {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 15px 0 20px 0;
+}
+
+.review-link {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: fit-content;
+}
+
+.review-link:hover {
+    background-color: #F03434;
+    color: black;
+}
+
+.review-link:active {
+    border:#F03434 2px solid;
+    color: black;
+    background-color: white;
+}
+
+.chat-bubble {
+    margin-right: 10px;
+}
+
+.footer-logo {
+    margin: 20px 0 50px 0;
+}

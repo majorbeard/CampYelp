@@ -40,11 +40,15 @@ body {
 
 .back-link {
     text-decoration: none;
-    color: 565657;
+    color: #565657;
 }
 
 .back-link:hover {
     color: #F03434;
+}
+
+.back-link:active {
+    font-weight: bold;
 }
 
 .arrow {
@@ -71,6 +75,10 @@ h1 {
 
 .sign-in:hover {
     color: #F03434;
+}
+
+.sign-in:active {
+    font-size:large;
 }
 
 .left {

@@ -1,0 +1,152 @@
+body {
+    padding: 0 60px;
+    font-family: 'Pathway Extreme', sans-serif;
+    margin: 0;
+    color: #76736E;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+  }
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+  }
+
+a {
+    text-decoration: none;
+    color: #76736E;
+}
+
+.navbar-logo {
+    margin-right: 20px;
+}
+
+.navbar-home {
+    font-weight: bold;
+}
+
+.navbar-home:hover {
+    color: #F03434;
+}
+
+.navbar-home:active {
+    font-size: large;
+}
+
+.logout {
+    color: #636364;
+    padding-left: 15px;
+}
+
+.logout:hover {
+    color: #F03434;
+}
+
+.logout:active {
+    font-weight: bold;
+}
+
+.login {
+    font-weight: bold;
+}
+
+.login:hover {
+    color: #F03434;
+}
+
+.login:active {
+    font-size: large;
+}
+
+.content{
+    /* width: 40%; */
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+form {
+    width: 500px;
+    max-width: 100%;
+}
+
+h1 {
+    color: black;
+    font-size: 32px;
+}
+
+.input {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Pathway Extreme', sans-serif;
+    color: black;
+    width: 97%;
+}
+
+
+form label,
+form input,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.textarea {
+    width: 97%;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Pathway Extreme', sans-serif;
+    color: black;
+}
+
+textarea::placeholder{
+    color: #b6b6b7;
+    line-height: 25px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 18px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 20px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #F03434;
+    color: black;
+}
+
+.button:active {
+    color:#F03434;
+    background-color: white;
+    border: 2px solid #F03434;
+}
+
+footer {
+    margin-top: auto;
+    padding: 28px;
+}

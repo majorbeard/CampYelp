@@ -73,6 +73,11 @@ p {
     background-color: #F03434;
 }
 
+.hero-cta:active {
+    border: 2px solid #F03434;
+    background-color: #F9F6F1;
+}
+
 .hero-logos {
     padding-right: 10px;
 }
